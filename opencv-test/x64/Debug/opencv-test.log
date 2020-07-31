@@ -1,0 +1,4 @@
+﻿  opencv-test.cpp
+C:\Users\Wen Tjin\source\repos\opencv-test\opencv-test\opencv-test_fn.h(37,31): warning C4101: 'rect_x': unreferenced local variable
+C:\Users\Wen Tjin\source\repos\opencv-test\opencv-test\opencv-test_fn.h(37,39): warning C4101: 'rect_y': unreferenced local variable
+  opencv-test.vcxproj -> C:\Users\Wen Tjin\source\repos\opencv-test\x64\Debug\opencv-test.exe
