@@ -1,4 +1,1 @@
-﻿  opencv-test.cpp
-C:\Users\Wen Tjin\source\repos\opencv-test\opencv-test\opencv-test_fn.h(37,31): warning C4101: 'rect_x': unreferenced local variable
-C:\Users\Wen Tjin\source\repos\opencv-test\opencv-test\opencv-test_fn.h(37,39): warning C4101: 'rect_y': unreferenced local variable
-  opencv-test.vcxproj -> C:\Users\Wen Tjin\source\repos\opencv-test\x64\Debug\opencv-test.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(67,5): error MSB8020: The build tools for v142 (Platform Toolset = 'v142') cannot be found. To build using the v142 build tools, please install v142 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".

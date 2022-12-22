@@ -12,6 +12,26 @@ using namespace cv;
 using namespace std;
 
 
+
+class Example
+{
+public:
+	static void exampleFunct(Example & example)
+	{
+		cout << "Value is: " << example.a << endl;
+	};
+
+	int a = 5;
+};
+
+void TestStaticness()
+{
+	Example example1;
+	example1.a = 6;
+	Example::exampleFunct(example1);
+}
+
+
 struct rect_node
 {
 	Rect rect;
@@ -27,6 +47,8 @@ struct rect_node
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
+void runOpenCVRandomRects();
 
 bool fn1_random_rectangles(Mat image, rect_node * &list1)
 {

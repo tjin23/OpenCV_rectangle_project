@@ -1,0 +1,15 @@
+*/Debug
+*/Release
+*/x64
+.vs
+Debug/
+Release/
+ipch/*
+*.sdf
+*.opensdf
+*.suo
+*.filters
+*.user
+*.ipch
+*.log
+*.opendb
