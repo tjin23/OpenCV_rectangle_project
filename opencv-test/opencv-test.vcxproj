@@ -149,12 +149,14 @@
     <ClCompile Include="CodeTesterV1.cpp" />
     <ClCompile Include="ContrastEnhancer.cpp" />
     <ClCompile Include="opencv-test.cpp" />
+    <ClCompile Include="SimpleEncryptionAndDecryption.cpp" />
     <ClCompile Include="Tests1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CodeTesterV1.h" />
     <ClInclude Include="ContrastEnhancer.h" />
     <ClInclude Include="opencv-test_fn.h" />
+    <ClInclude Include="SimpleEncryptionAndDecryption.h" />
     <ClInclude Include="Tests1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

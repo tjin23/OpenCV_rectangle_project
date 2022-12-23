@@ -6,7 +6,7 @@
 
 using namespace cv;
 
-class LPRContrastEnhancer
+class ContrastEnhancer
 {
 public :
     void ImproveContrast(const double& alpha, const int& beta, const std::string& imagePath);

@@ -4,6 +4,7 @@
 #include "ContrastEnhancer.h"
 #include "CodeTesterV1.h"
 #include "Tests1.h"
+#include "SimpleEncryptionAndDecryption.h"
 
 int main()
 {
@@ -12,7 +13,7 @@ int main()
 
 	// runOpenCVRandomRects();
 
-	LPRContrastEnhancer lprCE;
+	ContrastEnhancer lprCE;
 
 	std::string lprImagePath = "D:/Repositories/OpenCV_Rect_Project/OpenCV_rectangle_project/x64/Release/increase contrasts.png";
 
@@ -61,11 +62,11 @@ int main()
 	cout << "Size of int is: " << sizeof(int) << endl;
 
 	// --- Editing video
-	auto vidPath  = std::string("D:/Task_Files/EDG/21_Dec_22/TEST_1_/bay1.mp4");
+	auto vidPath  = std::string("X:/Projects/Aus/VatesEDG/AutoTesting/_WIP/SingleStream_UpdatedLPRInfo_CheckHigherPlateConfidence/bay2_output.mp4");
 	
-	auto outputVidPath = std::string("D:/Task_Files/EDG/21_Dec_22/TEST_1_/bay1_blacked.mp4");
+	auto outputVidPath = std::string("X:/Projects/Aus/VatesEDG/AutoTesting/_WIP/SingleStream_UpdatedLPRInfo_CheckHigherPlateConfidence/bay2_output_blacked.mp4");
 
-	Shared::CaptureVideoAndEdit(vidPath, outputVidPath);
+	Shared::CaptureVideoAndAddBlackRectangle(vidPath, outputVidPath);
 
 	// --- Editing Video ENd
 	

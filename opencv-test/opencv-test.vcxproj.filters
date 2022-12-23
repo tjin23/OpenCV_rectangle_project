@@ -27,6 +27,9 @@
     <ClCompile Include="Tests1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SimpleEncryptionAndDecryption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="opencv-test_fn.h">
@@ -39,6 +42,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Tests1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEncryptionAndDecryption.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

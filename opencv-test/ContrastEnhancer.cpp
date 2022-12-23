@@ -4,7 +4,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-void LPRContrastEnhancer::ImproveContrast(const double & alpha, const int & beta, const std::string & imagePath)
+void ContrastEnhancer::ImproveContrast(const double & alpha, const int & beta, const std::string & imagePath)
 {
     // CommandLineParser parser(argc, argv, "{@input | lena.jpg | input image}");
     Mat image = imread(imagePath);
